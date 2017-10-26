@@ -1,0 +1,113 @@
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-image: url(seigaiha.png);
+	
+}
+
+.logo_academy {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 1180px;
+}
+.top_br {
+	background-image: url(seigaiha.png);
+	background-repeat: repeat-x;
+}
+
+p {
+	font-family: cursive;
+	font-size: 18px;
+	font-weight: bold;
+	text-indent: 40px;
+	text-align: justify;
+	color: #222;
+}
+a {
+	text-decoration: none;
+}
+h1, h2 {
+    font-family: cursive;
+    text-align: justify;
+}
+h1 > em {
+	font-size: 20px;
+	color: #ccc;
+}
+.zag_h2 {
+	font-family: cursive;
+	font-size: 35px;
+}
+.first_hh1 {
+	font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.first_p {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #888;
+}
+
+.first_lt_ln {
+	margin-top: 40px;
+}
+
+.first_lt_ln:first-letter {
+	font-size: 36px;
+	color: #EA3;
+}
+
+.first_lt_ln:first-line {
+	font-size: 27px;
+	color: #A83;
+}
+.zmist {
+	font-size: 30px;
+	list-style: none;
+	text-align: center;
+}
+.zmist > li {
+	position: center;
+	font-variant: small-caps;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+	list-style-image: url(short.png);
+	background: #eee;
+}
+
+a:visited {
+    color: #a9a;
+}
+
+a:active {
+	text-decoration: overline;
+    color: #333;
+}
+
+table {
+	font-family: verdana, Sans-serif;
+	font-size: 18px;
+}
+
+th {
+	background: #666;
+	color: white;
+}
+
+tr:hover {
+	background: #ccc;
+}
+.last_tr {
+	background: #a83;
+	color: white;
+}
