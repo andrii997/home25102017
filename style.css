@@ -5,15 +5,11 @@ body {
 	
 }
 
-.logo_academy {
-	display: block;
-	position: fixed;
-	top: 0px;
-	left: 1180px;
-}
-.top_br {
-	background-image: url(seigaiha.png);
-	background-repeat: repeat-x;
+.all {
+	background-image: url(brain.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 p {
@@ -76,20 +72,20 @@ h1 > em {
 	font-variant: small-caps;
 }
 
-a:link {
+li:link {
     color: black;
 }
 
-a:hover {
+li:hover {
 	list-style-image: url(short.png);
 	background: #eee;
 }
 
-a:visited {
-    color: #a9a;
+li:visited {
+    color: gray;
 }
 
-a:active {
+li:active {
 	text-decoration: overline;
     color: #333;
 }
